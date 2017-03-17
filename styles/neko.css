@@ -1,0 +1,61 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding-top: 25px;
+}
+
+nav {
+    padding: 15px 0;
+    border-bottom: 1px solid #ddd;
+}
+
+nav h1 {
+    font-size: 16px;
+    font-weight: 600;
+    color: #222;
+}
+
+.projects {
+
+}
+
+.project {
+    display: block;
+    padding: 15px 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin: 20px 0;
+    text-decoration: none;
+}
+
+.project:hover {
+    border: 1px solid #10a0e1;
+}
+
+.project h2 {
+    color: #222;
+}
+.project p {
+    margin-top: 4px;
+    color: #777;
+}
+
+.copyright {
+    max-width: 600px;
+    margin: 0 auto;
+}
+.copyright p {
+    color: #ccc;
+    font-size: 11px;
+    text-align: center;
+    line-height: 18px;
+}
