@@ -10,7 +10,7 @@ body {
 .container {
     max-width: 800px;
     margin: 0 auto;
-    padding-top: 25px;
+    padding-top: 10px;
 }
 
 nav {
@@ -58,4 +58,23 @@ nav h1 {
     font-size: 11px;
     text-align: center;
     line-height: 18px;
+}
+
+/* Mobile */
+@media screen and (max-width: 840px) {
+    .container {
+        margin: 0 20px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .project h2 {
+        font-size: 20px;
+    }
+    .project p {
+        font-size: 14px;
+    }
+    .copyright p {
+        font-size: 10px;
+    }
 }
